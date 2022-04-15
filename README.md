@@ -55,7 +55,7 @@ prefixed with `Ma` (e.g. `Madison`, `Max`, `Maya`) sorted by `surname` in an
 ascending order.
 
 ```sql
-PASTE YOUR CODE HERE
+SELECT name, surname FROM students WHERE name like 'Ma%' ORDER by surname;
 ```
 
 ### Table `class`
@@ -67,7 +67,12 @@ Create a table `class` with fields of the given type:
 * `modifier`: `text`
 
 ```sql
-PASTE YOUR CODE HERE
+CREATE TABLE class (
+	id	INTEGER,
+	year	INTEGER,
+	modifier	TEXT,
+	PRIMARY KEY(id)
+);
 ```
 
 Create `class.sql` file with `INSERT INTO` query that adds entries to `class`
@@ -81,7 +86,11 @@ Create a table `groups` with fields of the given type:
 * `class_id`: `integer`
 
 ```sql
-PASTE YOUR CODE HERE
+CREATE TABLE groups (
+	student_id	INTEGER,
+	class_id	INTEGER,
+	PRIMARY KEY(student_id)
+);
 ```
 
 Create `groups.sql` file with `INSERT INTO` query that adds entries to `groups`
@@ -92,14 +101,25 @@ i.e. `name`, `surname`, `year`, `modifier` fields. You need to use two `JOIN`s
 for this query.
 
 ```sql
-PASTE YOUR CODE HERE
+SELECT name, surname, year,modifier
+FROM students
+JOIN groups
+ON students.id = groups.student_id
+JOIN class
+ON class.id = groups.class_id
 ```
 
 Write a query that outputs a table with all students studying in the class year
 `9` (i.e. `name`, `surname`, `year`, `modifier`).
 
 ```sql
-PASTE YOUR CODE HERE
+SELECT name, surname, year,modifier
+FROM class
+JOIN groups
+ON students.id = groups.student_id
+JOIN students
+ON class.id = groups.class_id
+WHERE year=9;
 ```
 
 ### Table `lessons`
@@ -110,7 +130,11 @@ Create a table `lessons` with fields of the given type:
 * `name`: `text`
 
 ```sql
-PASTE YOUR CODE HERE
+CREATE TABLE lessons (
+	id INTEGER,
+	name TEXT,
+	PRIMARY KEY (id)
+	)
 ```
 
 Write a query that outputs a table with classes corresponding to each student,
@@ -118,7 +142,8 @@ i.e. `name`, `surname`, `year`, `modifier` fields. You need to use two `JOIN`s
 for this query.
 
 ```sql
-PASTE YOUR CODE HERE
+thats already was done higher
+maybe it is not right exersize?
 ```
 
 Create `lessons.sql` file with `INSERT INTO` query that adds entries to `lessons`
@@ -134,7 +159,13 @@ Create a table `timetable` with fields of the given type:
 * `lesson_id`: `integer`
 
 ```sql
-PASTE YOUR CODE HERE
+CREATE TABLE timetable (
+	id INTEGER,
+	class_id INTEGER,
+	day TEXT,
+	lesson_id INTEGER,
+	PRIMARY KEY (id)
+	)
 ```
 
 Create `timetable.sql` file with `INSERT INTO` query that adds entries to `timetable`
