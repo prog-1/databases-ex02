@@ -1,325 +1,332 @@
-INSERT INTO students (id, name, surname) VALUES
- (1,'Aaliyah','Nhira'),
- (2,'Aaron','Reed'),
- (3,'Abbie','Griffiths'),
- (4,'Abigail','Tshuma'),
- (5,'Abigail','Walker'),
- (6,'Adalyn','Adrichem'),
- (7,'Adam','Butler'),
- (8,'Adam','Netshamulivho'),
- (9,'Addison','Neilson'),
- (10,'Aidan','Gobey'),
- (11,'Aiden','McNicol'),
- (12,'Aiden','Morgan'),
- (13,'Aimee','Stenson'),
- (14,'Alex','O''Sullivan'),
- (15,'Alexander','Gobey'),
- (16,'Alexander','Watson'),
- (17,'Alexandra','Richards'),
- (18,'Alfie','Keppel'),
- (19,'Alice','Hamilton'),
- (20,'Alicia','Capstick'),
- (21,'Alisha','Stewart'),
- (22,'Amber','Cox'),
- (23,'Amelia','Wood'),
- (24,'Amelia','Woodcock'),
- (25,'Amelie','Petzer'),
- (26,'Amy','Pamberi'),
- (27,'Andrew','Fulton'),
- (28,'Anna','Lee'),
- (29,'Archie','Forrester'),
- (30,'Aria','Love'),
- (31,'Arianna','Russell'),
- (32,'Asher','Pascoe'),
- (33,'Ashton','Peterson'),
- (34,'Aubrey','O''Connor'),
- (35,'Ava','Cullen'),
- (36,'Ava','Phuthu'),
- (37,'Avery','Reed'),
- (38,'Bailey','O''Connor'),
- (39,'Ben','Rees'),
- (40,'Benjamin','Adams'),
- (41,'Benjamin','Wratten'),
- (42,'Bethany','Morgan'),
- (43,'Billy','Barbour'),
- (44,'Blake','Wilson'),
- (45,'Bradley','Mowser'),
- (46,'Brandon','Harding'),
- (47,'Brooke','Chungwa'),
- (48,'Brooklyn','Torres'),
- (49,'Caden','Byrne'),
- (50,'Caitlin','Parker'),
- (51,'Caleb','Brown'),
- (52,'Callum','Chiri'),
- (53,'Cameron','Keppel'),
- (54,'Cameron','Miller'),
- (55,'Camilla','Mccullum'),
- (56,'Carson','Fenwick-Barbour'),
- (57,'Carter','Burgoyne'),
- (58,'Charles','Muponda'),
- (59,'Charlie','Bossert'),
- (60,'Charlie','Martin'),
- (61,'Charlotte','Myers'),
- (62,'Chloe','Harry'),
- (63,'Chloe','Robertson'),
- (64,'Christopher','Muponda'),
- (65,'Cody','Kennedy'),
- (66,'Conner','Richardson'),
- (67,'Connie','Robertson'),
- (68,'Connor','Ali'),
- (69,'Connor','Hundermark'),
- (70,'Corey','Murphy'),
- (71,'Courtney','King'),
- (72,'Daid','Parker'),
- (73,'Daisy','Richardson'),
- (74,'Daniel','Cullen'),
- (75,'Daniel','Hartley'),
- (76,'Darcy','Gray'),
- (77,'David','Mlilo'),
- (78,'David','Price'),
- (79,'Demi','Shannon'),
- (80,'Dominic','Edwards'),
- (81,'Dylan','Crombie'),
- (82,'Edward','Alexander'),
- (83,'Eleanor','Myers'),
- (84,'Elena','Harris'),
- (85,'Eliana','Mitchell'),
- (86,'Elijah','Elske'),
- (87,'Elizabeth','Shannon'),
- (88,'Ella','Bismark'),
- (89,'Ella','Cruz'),
- (90,'Ellie','Andrews'),
- (91,'Ellie','Brooks'),
- (92,'Elliot','Macdonald'),
- (93,'Ellis','Turner'),
- (94,'Eloise','Phillips'),
- (95,'Emily','Paterson'),
- (96,'Emily','Webster'),
- (97,'Emma','Jones'),
- (98,'Emma','Perry'),
- (99,'Erin','Flores'),
- (100,'Ethan','Ncube'),
- (101,'Ethan','Torres'),
- (102,'Eva','Nelson'),
- (103,'Evan','Russell'),
- (104,'Eve','Donovan'),
- (105,'Evelyn','Bossert'),
- (106,'Evelyn','Miller'),
- (107,'Everly','Love'),
- (108,'Evie','Foster'),
- (109,'Ewan','Thackwray'),
- (110,'Faith','Summers'),
- (111,'Finlay','Chan'),
- (112,'Finley','Sury'),
- (113,'Finn','Lewis'),
- (114,'Francesca','McNicol'),
- (115,'Freddie','Perry'),
- (116,'Frederick','Gazi'),
- (117,'Freya','Cox'),
- (118,'Gabriel','Roberts'),
- (119,'Gabriel','White'),
- (120,'Geogia','Webster'),
- (121,'George','Biri'),
- (122,'Georgia','Nhira'),
- (123,'Grace','Lee'),
- (124,'Grace','Torres'),
- (125,'Gracie','Elske'),
- (126,'Grayson','Adrichem'),
- (127,'Hailey','Burger'),
- (128,'Hannah','Tully'),
- (129,'Hannah','Wenceslaus'),
- (130,'Harley','Hundermark'),
- (131,'Harper','Prescott'),
- (132,'Harriet','Parkers'),
- (133,'Harrison','Taylor'),
- (134,'Harry','Barlow'),
- (135,'Harvey','Davis'),
- (136,'Hayden','Mudarikwa'),
- (137,'Heidi','Tutani'),
- (138,'Henry','Cruz'),
- (139,'Henry','Sullivan'),
- (140,'Hollie','Howard'),
- (141,'Holly','Cookson'),
- (142,'Imogen','Miller'),
- (143,'Isaac','Anderson'),
- (144,'Isaac','Thompson'),
- (145,'Isabel','Nyoni'),
- (146,'Isabella','Nhira'),
- (147,'Isabelle','Russell'),
- (148,'Isaiah','Mkhasibe'),
- (149,'Isla','Ward'),
- (150,'Isobel','Barratt'),
- (151,'Issac','Granville'),
- (152,'Jack','Martin'),
- (153,'Jack','Ortiz'),
- (154,'Jackson','Hoaton'),
- (155,'Jacob','Gomez'),
- (156,'Jacob','Potgieter'),
- (157,'Jake','Rodriguez'),
- (158,'James','Li'),
- (159,'James','Macbeth'),
- (160,'Jamie','Kennedy'),
- (161,'Jasmin','Cooper'),
- (162,'Jasmine','Macbeth'),
- (163,'Jay','Rodkin'),
- (164,'Jayce','Parker'),
- (165,'Jayden','Clarke'),
- (166,'Jayden','Elske'),
- (167,'Jessica','Gray'),
- (168,'Joe','Mandiveyi'),
- (169,'Joel','Zikhali'),
- (170,'John','Byrne'),
- (171,'John','Roberts'),
- (172,'Joseph','Tremblay'),
- (173,'Josh','Davies'),
- (174,'Joshua','Summers'),
- (175,'Josiah','Roy'),
- (176,'Jude','Cartledge'),
- (177,'Julia','Nelson'),
- (178,'Julian','Biri'),
- (179,'Kai','Gonzalez'),
- (180,'Katie','Gallagher'),
- (181,'Keira','Herselman'),
- (182,'Kian','Hardy'),
- (183,'Kiera','Roy'),
- (184,'Kieran','Mudarikwa'),
- (185,'Kinsley','Bhehane'),
- (186,'Kyle','Doherty'),
- (187,'Lacey','Tutani'),
- (188,'Landon','Haukozi'),
- (189,'Lara','Tapson'),
- (190,'Laura','Dobel'),
- (191,'Lauren','Bhehane'),
- (192,'Layla','Clark'),
- (193,'Layla','Pascoe'),
- (194,'Lbby','Campbell'),
- (195,'Leah','Long'),
- (196,'Leah','Woodcock'),
- (197,'Leo','Hernandez'),
- (198,'Leo','Perez'),
- (199,'Leon','Swanepeol'),
- (200,'Levi','Taylor'),
- (201,'Lewis','Davies'),
- (202,'Lexi','Tapson'),
- (203,'Lexie','Johnson'),
- (204,'Liam','Mccullum'),
- (205,'Liam','Walker'),
- (206,'Libby','Durward'),
- (207,'Lilly','Foster'),
- (208,'Lily','O''Reilly'),
- (209,'Lily','Rogers'),
- (210,'Lincoln','Doyle'),
- (211,'Logan','Smit'),
- (212,'Logan','Ward'),
- (213,'Lola','Evans'),
- (214,'Louie','Murray'),
- (215,'Louis','Clark'),
- (216,'Luca','Reyes'),
- (217,'Lucas','Bhehane'),
- (218,'Lucas','Clark'),
- (219,'Lucy','Bhehane'),
- (220,'Luke','Macbeth'),
- (221,'Luke','Walsh'),
- (222,'Luna','Bismark'),
- (223,'Lydia','Gagnon'),
- (224,'Maddison','Foster'),
- (225,'Madeleine','Howard'),
- (226,'Madelyn','Rose'),
- (227,'Madison','Haukozi'),
- (228,'Madison','Webster'),
- (229,'Maisie','Parker'),
- (230,'Marcus','Nobbs'),
- (231,'Maria','Cason'),
- (232,'Martha','Gonzalez'),
- (233,'Mason','Bossert'),
- (234,'Mason','Dobel'),
- (235,'Mateo','Pamberi'),
- (236,'Matilda','Lewis'),
- (237,'Matthew','Capstick'),
- (238,'Matthew','Pascoe'),
- (239,'Max','Tully'),
- (240,'Maya','Byrne'),
- (241,'Maya','Palmer'),
- (242,'Megan','Rose'),
- (243,'Mia','James'),
- (244,'Mia','Lambourn'),
- (245,'Michael','Quinn'),
- (246,'Michael','Smit'),
- (247,'Mila','Hoaton'),
- (248,'Millie','Harding'),
- (249,'Mohammad','Lewis'),
- (250,'Mohammed','Li'),
- (251,'Mollie','Crombie'),
- (252,'Molly','Watson'),
- (253,'Morgan','Cote'),
- (254,'Muhammad','Christie'),
- (255,'Muhammad','Price'),
- (256,'Natasha','Cruz'),
- (257,'Nathan','Gray'),
- (258,'Niamh','Andrews'),
- (259,'Nicholas','Scott'),
- (260,'Nicole','Mudarikwa'),
- (261,'Noah','Li'),
- (262,'Noah','Mlilo'),
- (263,'Nora','Johnson'),
- (264,'Oliver','Commerford'),
- (265,'Oliver','Elske'),
- (266,'Olivia','Haukozi'),
- (267,'Olivia','Walker'),
- (268,'Oscar','Gutierrez'),
- (269,'Owen','Love'),
- (270,'Owen','Wratten'),
- (271,'Paige','Macbeth'),
- (272,'Paisley','Thackwray'),
- (273,'Penelope','Lopez'),
- (274,'Phoebe','Shannon'),
- (275,'Poppy','Hughes'),
- (276,'Rachel','Christie'),
- (277,'Rebecca','Burrowes'),
- (278,'Reece','Macdonald'),
- (279,'Reuben','Martinez'),
- (280,'Rhys','Bismark'),
- (281,'Riley','Beatham'),
- (282,'Riley','Burrowes'),
- (283,'Robert','Cullen'),
- (284,'Rose','Pamberi'),
- (285,'Rosie','Jenkins'),
- (286,'Ruby','Thompson'),
- (287,'Ryan','George'),
- (288,'Ryan','Gobey'),
- (289,'Sam','Venter'),
- (290,'Samuel','Chitsiga'),
- (291,'Sara','Richardson'),
- (292,'Sarah','Mnyandu'),
- (293,'Sarah','Reid'),
- (294,'Scarlet','Mudarikwa'),
- (295,'Scarlett','Bennett'),
- (296,'Sean','Long'),
- (297,'Sebastian','Love'),
- (298,'Sebastian','Morrison'),
- (299,'Shannon','Rick'),
- (300,'Sienna','Thomson'),
- (301,'Skye','Cason'),
- (302,'Sofia','Molokomme'),
- (303,'Sophia','Khan'),
- (304,'Sophia','Webster'),
- (305,'Sophie','Russell'),
- (306,'Summer','Woodcock'),
- (307,'Taylor','Tshuma'),
- (308,'Theo','Allen'),
- (309,'Thomas','O''Sullivan'),
- (310,'Tia','Williams'),
- (311,'Tilly','Harris'),
- (312,'Toby','Molokomme'),
- (313,'Tom','Clarke'),
- (314,'Tyler','Rivera'),
- (315,'Victoria','Cote'),
- (316,'William','Easterbrook'),
- (317,'William','Fisher'),
- (318,'Wyatt','Murphy'),
- (319,'Zac','Chitsiga'),
- (320,'Zachary','Netshamulivho'),
- (321,'Zak','Saptouw'),
- (322,'Zara','Austin'),
- (323,'Zoe','Byrne'),
- (324,'Zoe','Nhira');
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "students" (
+	"id"	INTEGER,
+	"name"	TEXT,
+	"surname"	TEXT,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+INSERT INTO "students" VALUES (1,'Aaliyah','Nhira');
+INSERT INTO "students" VALUES (2,'Aaron','Reed');
+INSERT INTO "students" VALUES (3,'Abbie','Griffiths');
+INSERT INTO "students" VALUES (4,'Abigail','Tshuma');
+INSERT INTO "students" VALUES (5,'Abigail','Walker');
+INSERT INTO "students" VALUES (6,'Adalyn','Adrichem');
+INSERT INTO "students" VALUES (7,'Adam','Butler');
+INSERT INTO "students" VALUES (8,'Adam','Netshamulivho');
+INSERT INTO "students" VALUES (9,'Addison','Neilson');
+INSERT INTO "students" VALUES (10,'Aidan','Gobey');
+INSERT INTO "students" VALUES (11,'Aiden','McNicol');
+INSERT INTO "students" VALUES (12,'Aiden','Morgan');
+INSERT INTO "students" VALUES (13,'Aimee','Stenson');
+INSERT INTO "students" VALUES (14,'Alex','O''Sullivan');
+INSERT INTO "students" VALUES (15,'Alexander','Gobey');
+INSERT INTO "students" VALUES (16,'Alexander','Watson');
+INSERT INTO "students" VALUES (17,'Alexandra','Richards');
+INSERT INTO "students" VALUES (18,'Alfie','Keppel');
+INSERT INTO "students" VALUES (19,'Alice','Hamilton');
+INSERT INTO "students" VALUES (20,'Alicia','Capstick');
+INSERT INTO "students" VALUES (21,'Alisha','Stewart');
+INSERT INTO "students" VALUES (22,'Amber','Cox');
+INSERT INTO "students" VALUES (23,'Amelia','Wood');
+INSERT INTO "students" VALUES (24,'Amelia','Woodcock');
+INSERT INTO "students" VALUES (25,'Amelie','Petzer');
+INSERT INTO "students" VALUES (26,'Amy','Pamberi');
+INSERT INTO "students" VALUES (27,'Andrew','Fulton');
+INSERT INTO "students" VALUES (28,'Anna','Lee');
+INSERT INTO "students" VALUES (29,'Archie','Forrester');
+INSERT INTO "students" VALUES (30,'Aria','Love');
+INSERT INTO "students" VALUES (31,'Arianna','Russell');
+INSERT INTO "students" VALUES (32,'Asher','Pascoe');
+INSERT INTO "students" VALUES (33,'Ashton','Peterson');
+INSERT INTO "students" VALUES (34,'Aubrey','O''Connor');
+INSERT INTO "students" VALUES (35,'Ava','Cullen');
+INSERT INTO "students" VALUES (36,'Ava','Phuthu');
+INSERT INTO "students" VALUES (37,'Avery','Reed');
+INSERT INTO "students" VALUES (38,'Bailey','O''Connor');
+INSERT INTO "students" VALUES (39,'Ben','Rees');
+INSERT INTO "students" VALUES (40,'Benjamin','Adams');
+INSERT INTO "students" VALUES (41,'Benjamin','Wratten');
+INSERT INTO "students" VALUES (42,'Bethany','Morgan');
+INSERT INTO "students" VALUES (43,'Billy','Barbour');
+INSERT INTO "students" VALUES (44,'Blake','Wilson');
+INSERT INTO "students" VALUES (45,'Bradley','Mowser');
+INSERT INTO "students" VALUES (46,'Brandon','Harding');
+INSERT INTO "students" VALUES (47,'Brooke','Chungwa');
+INSERT INTO "students" VALUES (48,'Brooklyn','Torres');
+INSERT INTO "students" VALUES (49,'Caden','Byrne');
+INSERT INTO "students" VALUES (50,'Caitlin','Parker');
+INSERT INTO "students" VALUES (51,'Caleb','Brown');
+INSERT INTO "students" VALUES (52,'Callum','Chiri');
+INSERT INTO "students" VALUES (53,'Cameron','Keppel');
+INSERT INTO "students" VALUES (54,'Cameron','Miller');
+INSERT INTO "students" VALUES (55,'Camilla','Mccullum');
+INSERT INTO "students" VALUES (56,'Carson','Fenwick-Barbour');
+INSERT INTO "students" VALUES (57,'Carter','Burgoyne');
+INSERT INTO "students" VALUES (58,'Charles','Muponda');
+INSERT INTO "students" VALUES (59,'Charlie','Bossert');
+INSERT INTO "students" VALUES (60,'Charlie','Martin');
+INSERT INTO "students" VALUES (61,'Charlotte','Myers');
+INSERT INTO "students" VALUES (62,'Chloe','Harry');
+INSERT INTO "students" VALUES (63,'Chloe','Robertson');
+INSERT INTO "students" VALUES (64,'Christopher','Muponda');
+INSERT INTO "students" VALUES (65,'Cody','Kennedy');
+INSERT INTO "students" VALUES (66,'Conner','Richardson');
+INSERT INTO "students" VALUES (67,'Connie','Robertson');
+INSERT INTO "students" VALUES (68,'Connor','Ali');
+INSERT INTO "students" VALUES (69,'Connor','Hundermark');
+INSERT INTO "students" VALUES (70,'Corey','Murphy');
+INSERT INTO "students" VALUES (71,'Courtney','King');
+INSERT INTO "students" VALUES (72,'Daid','Parker');
+INSERT INTO "students" VALUES (73,'Daisy','Richardson');
+INSERT INTO "students" VALUES (74,'Daniel','Cullen');
+INSERT INTO "students" VALUES (75,'Daniel','Hartley');
+INSERT INTO "students" VALUES (76,'Darcy','Gray');
+INSERT INTO "students" VALUES (77,'David','Mlilo');
+INSERT INTO "students" VALUES (78,'David','Price');
+INSERT INTO "students" VALUES (79,'Demi','Shannon');
+INSERT INTO "students" VALUES (80,'Dominic','Edwards');
+INSERT INTO "students" VALUES (81,'Dylan','Crombie');
+INSERT INTO "students" VALUES (82,'Edward','Alexander');
+INSERT INTO "students" VALUES (83,'Eleanor','Myers');
+INSERT INTO "students" VALUES (84,'Elena','Harris');
+INSERT INTO "students" VALUES (85,'Eliana','Mitchell');
+INSERT INTO "students" VALUES (86,'Elijah','Elske');
+INSERT INTO "students" VALUES (87,'Elizabeth','Shannon');
+INSERT INTO "students" VALUES (88,'Ella','Bismark');
+INSERT INTO "students" VALUES (89,'Ella','Cruz');
+INSERT INTO "students" VALUES (90,'Ellie','Andrews');
+INSERT INTO "students" VALUES (91,'Ellie','Brooks');
+INSERT INTO "students" VALUES (92,'Elliot','Macdonald');
+INSERT INTO "students" VALUES (93,'Ellis','Turner');
+INSERT INTO "students" VALUES (94,'Eloise','Phillips');
+INSERT INTO "students" VALUES (95,'Emily','Paterson');
+INSERT INTO "students" VALUES (96,'Emily','Webster');
+INSERT INTO "students" VALUES (97,'Emma','Jones');
+INSERT INTO "students" VALUES (98,'Emma','Perry');
+INSERT INTO "students" VALUES (99,'Erin','Flores');
+INSERT INTO "students" VALUES (100,'Ethan','Ncube');
+INSERT INTO "students" VALUES (101,'Ethan','Torres');
+INSERT INTO "students" VALUES (102,'Eva','Nelson');
+INSERT INTO "students" VALUES (103,'Evan','Russell');
+INSERT INTO "students" VALUES (104,'Eve','Donovan');
+INSERT INTO "students" VALUES (105,'Evelyn','Bossert');
+INSERT INTO "students" VALUES (106,'Evelyn','Miller');
+INSERT INTO "students" VALUES (107,'Everly','Love');
+INSERT INTO "students" VALUES (108,'Evie','Foster');
+INSERT INTO "students" VALUES (109,'Ewan','Thackwray');
+INSERT INTO "students" VALUES (110,'Faith','Summers');
+INSERT INTO "students" VALUES (111,'Finlay','Chan');
+INSERT INTO "students" VALUES (112,'Finley','Sury');
+INSERT INTO "students" VALUES (113,'Finn','Lewis');
+INSERT INTO "students" VALUES (114,'Francesca','McNicol');
+INSERT INTO "students" VALUES (115,'Freddie','Perry');
+INSERT INTO "students" VALUES (116,'Frederick','Gazi');
+INSERT INTO "students" VALUES (117,'Freya','Cox');
+INSERT INTO "students" VALUES (118,'Gabriel','Roberts');
+INSERT INTO "students" VALUES (119,'Gabriel','White');
+INSERT INTO "students" VALUES (120,'Geogia','Webster');
+INSERT INTO "students" VALUES (121,'George','Biri');
+INSERT INTO "students" VALUES (122,'Georgia','Nhira');
+INSERT INTO "students" VALUES (123,'Grace','Lee');
+INSERT INTO "students" VALUES (124,'Grace','Torres');
+INSERT INTO "students" VALUES (125,'Gracie','Elske');
+INSERT INTO "students" VALUES (126,'Grayson','Adrichem');
+INSERT INTO "students" VALUES (127,'Hailey','Burger');
+INSERT INTO "students" VALUES (128,'Hannah','Tully');
+INSERT INTO "students" VALUES (129,'Hannah','Wenceslaus');
+INSERT INTO "students" VALUES (130,'Harley','Hundermark');
+INSERT INTO "students" VALUES (131,'Harper','Prescott');
+INSERT INTO "students" VALUES (132,'Harriet','Parkers');
+INSERT INTO "students" VALUES (133,'Harrison','Taylor');
+INSERT INTO "students" VALUES (134,'Harry','Barlow');
+INSERT INTO "students" VALUES (135,'Harvey','Davis');
+INSERT INTO "students" VALUES (136,'Hayden','Mudarikwa');
+INSERT INTO "students" VALUES (137,'Heidi','Tutani');
+INSERT INTO "students" VALUES (138,'Henry','Cruz');
+INSERT INTO "students" VALUES (139,'Henry','Sullivan');
+INSERT INTO "students" VALUES (140,'Hollie','Howard');
+INSERT INTO "students" VALUES (141,'Holly','Cookson');
+INSERT INTO "students" VALUES (142,'Imogen','Miller');
+INSERT INTO "students" VALUES (143,'Isaac','Anderson');
+INSERT INTO "students" VALUES (144,'Isaac','Thompson');
+INSERT INTO "students" VALUES (145,'Isabel','Nyoni');
+INSERT INTO "students" VALUES (146,'Isabella','Nhira');
+INSERT INTO "students" VALUES (147,'Isabelle','Russell');
+INSERT INTO "students" VALUES (148,'Isaiah','Mkhasibe');
+INSERT INTO "students" VALUES (149,'Isla','Ward');
+INSERT INTO "students" VALUES (150,'Isobel','Barratt');
+INSERT INTO "students" VALUES (151,'Issac','Granville');
+INSERT INTO "students" VALUES (152,'Jack','Martin');
+INSERT INTO "students" VALUES (153,'Jack','Ortiz');
+INSERT INTO "students" VALUES (154,'Jackson','Hoaton');
+INSERT INTO "students" VALUES (155,'Jacob','Gomez');
+INSERT INTO "students" VALUES (156,'Jacob','Potgieter');
+INSERT INTO "students" VALUES (157,'Jake','Rodriguez');
+INSERT INTO "students" VALUES (158,'James','Li');
+INSERT INTO "students" VALUES (159,'James','Macbeth');
+INSERT INTO "students" VALUES (160,'Jamie','Kennedy');
+INSERT INTO "students" VALUES (161,'Jasmin','Cooper');
+INSERT INTO "students" VALUES (162,'Jasmine','Macbeth');
+INSERT INTO "students" VALUES (163,'Jay','Rodkin');
+INSERT INTO "students" VALUES (164,'Jayce','Parker');
+INSERT INTO "students" VALUES (165,'Jayden','Clarke');
+INSERT INTO "students" VALUES (166,'Jayden','Elske');
+INSERT INTO "students" VALUES (167,'Jessica','Gray');
+INSERT INTO "students" VALUES (168,'Joe','Mandiveyi');
+INSERT INTO "students" VALUES (169,'Joel','Zikhali');
+INSERT INTO "students" VALUES (170,'John','Byrne');
+INSERT INTO "students" VALUES (171,'John','Roberts');
+INSERT INTO "students" VALUES (172,'Joseph','Tremblay');
+INSERT INTO "students" VALUES (173,'Josh','Davies');
+INSERT INTO "students" VALUES (174,'Joshua','Summers');
+INSERT INTO "students" VALUES (175,'Josiah','Roy');
+INSERT INTO "students" VALUES (176,'Jude','Cartledge');
+INSERT INTO "students" VALUES (177,'Julia','Nelson');
+INSERT INTO "students" VALUES (178,'Julian','Biri');
+INSERT INTO "students" VALUES (179,'Kai','Gonzalez');
+INSERT INTO "students" VALUES (180,'Katie','Gallagher');
+INSERT INTO "students" VALUES (181,'Keira','Herselman');
+INSERT INTO "students" VALUES (182,'Kian','Hardy');
+INSERT INTO "students" VALUES (183,'Kiera','Roy');
+INSERT INTO "students" VALUES (184,'Kieran','Mudarikwa');
+INSERT INTO "students" VALUES (185,'Kinsley','Bhehane');
+INSERT INTO "students" VALUES (186,'Kyle','Doherty');
+INSERT INTO "students" VALUES (187,'Lacey','Tutani');
+INSERT INTO "students" VALUES (188,'Landon','Haukozi');
+INSERT INTO "students" VALUES (189,'Lara','Tapson');
+INSERT INTO "students" VALUES (190,'Laura','Dobel');
+INSERT INTO "students" VALUES (191,'Lauren','Bhehane');
+INSERT INTO "students" VALUES (192,'Layla','Clark');
+INSERT INTO "students" VALUES (193,'Layla','Pascoe');
+INSERT INTO "students" VALUES (194,'Lbby','Campbell');
+INSERT INTO "students" VALUES (195,'Leah','Long');
+INSERT INTO "students" VALUES (196,'Leah','Woodcock');
+INSERT INTO "students" VALUES (197,'Leo','Hernandez');
+INSERT INTO "students" VALUES (198,'Leo','Perez');
+INSERT INTO "students" VALUES (199,'Leon','Swanepeol');
+INSERT INTO "students" VALUES (200,'Levi','Taylor');
+INSERT INTO "students" VALUES (201,'Lewis','Davies');
+INSERT INTO "students" VALUES (202,'Lexi','Tapson');
+INSERT INTO "students" VALUES (203,'Lexie','Johnson');
+INSERT INTO "students" VALUES (204,'Liam','Mccullum');
+INSERT INTO "students" VALUES (205,'Liam','Walker');
+INSERT INTO "students" VALUES (206,'Libby','Durward');
+INSERT INTO "students" VALUES (207,'Lilly','Foster');
+INSERT INTO "students" VALUES (208,'Lily','O''Reilly');
+INSERT INTO "students" VALUES (209,'Lily','Rogers');
+INSERT INTO "students" VALUES (210,'Lincoln','Doyle');
+INSERT INTO "students" VALUES (211,'Logan','Smit');
+INSERT INTO "students" VALUES (212,'Logan','Ward');
+INSERT INTO "students" VALUES (213,'Lola','Evans');
+INSERT INTO "students" VALUES (214,'Louie','Murray');
+INSERT INTO "students" VALUES (215,'Louis','Clark');
+INSERT INTO "students" VALUES (216,'Luca','Reyes');
+INSERT INTO "students" VALUES (217,'Lucas','Bhehane');
+INSERT INTO "students" VALUES (218,'Lucas','Clark');
+INSERT INTO "students" VALUES (219,'Lucy','Bhehane');
+INSERT INTO "students" VALUES (220,'Luke','Macbeth');
+INSERT INTO "students" VALUES (221,'Luke','Walsh');
+INSERT INTO "students" VALUES (222,'Luna','Bismark');
+INSERT INTO "students" VALUES (223,'Lydia','Gagnon');
+INSERT INTO "students" VALUES (224,'Maddison','Foster');
+INSERT INTO "students" VALUES (225,'Madeleine','Howard');
+INSERT INTO "students" VALUES (226,'Madelyn','Rose');
+INSERT INTO "students" VALUES (227,'Madison','Haukozi');
+INSERT INTO "students" VALUES (228,'Madison','Webster');
+INSERT INTO "students" VALUES (229,'Maisie','Parker');
+INSERT INTO "students" VALUES (230,'Marcus','Nobbs');
+INSERT INTO "students" VALUES (231,'Maria','Cason');
+INSERT INTO "students" VALUES (232,'Martha','Gonzalez');
+INSERT INTO "students" VALUES (233,'Mason','Bossert');
+INSERT INTO "students" VALUES (234,'Mason','Dobel');
+INSERT INTO "students" VALUES (235,'Mateo','Pamberi');
+INSERT INTO "students" VALUES (236,'Matilda','Lewis');
+INSERT INTO "students" VALUES (237,'Matthew','Capstick');
+INSERT INTO "students" VALUES (238,'Matthew','Pascoe');
+INSERT INTO "students" VALUES (239,'Max','Tully');
+INSERT INTO "students" VALUES (240,'Maya','Byrne');
+INSERT INTO "students" VALUES (241,'Maya','Palmer');
+INSERT INTO "students" VALUES (242,'Megan','Rose');
+INSERT INTO "students" VALUES (243,'Mia','James');
+INSERT INTO "students" VALUES (244,'Mia','Lambourn');
+INSERT INTO "students" VALUES (245,'Michael','Quinn');
+INSERT INTO "students" VALUES (246,'Michael','Smit');
+INSERT INTO "students" VALUES (247,'Mila','Hoaton');
+INSERT INTO "students" VALUES (248,'Millie','Harding');
+INSERT INTO "students" VALUES (249,'Mohammad','Lewis');
+INSERT INTO "students" VALUES (250,'Mohammed','Li');
+INSERT INTO "students" VALUES (251,'Mollie','Crombie');
+INSERT INTO "students" VALUES (252,'Molly','Watson');
+INSERT INTO "students" VALUES (253,'Morgan','Cote');
+INSERT INTO "students" VALUES (254,'Muhammad','Christie');
+INSERT INTO "students" VALUES (255,'Muhammad','Price');
+INSERT INTO "students" VALUES (256,'Natasha','Cruz');
+INSERT INTO "students" VALUES (257,'Nathan','Gray');
+INSERT INTO "students" VALUES (258,'Niamh','Andrews');
+INSERT INTO "students" VALUES (259,'Nicholas','Scott');
+INSERT INTO "students" VALUES (260,'Nicole','Mudarikwa');
+INSERT INTO "students" VALUES (261,'Noah','Li');
+INSERT INTO "students" VALUES (262,'Noah','Mlilo');
+INSERT INTO "students" VALUES (263,'Nora','Johnson');
+INSERT INTO "students" VALUES (264,'Oliver','Commerford');
+INSERT INTO "students" VALUES (265,'Oliver','Elske');
+INSERT INTO "students" VALUES (266,'Olivia','Haukozi');
+INSERT INTO "students" VALUES (267,'Olivia','Walker');
+INSERT INTO "students" VALUES (268,'Oscar','Gutierrez');
+INSERT INTO "students" VALUES (269,'Owen','Love');
+INSERT INTO "students" VALUES (270,'Owen','Wratten');
+INSERT INTO "students" VALUES (271,'Paige','Macbeth');
+INSERT INTO "students" VALUES (272,'Paisley','Thackwray');
+INSERT INTO "students" VALUES (273,'Penelope','Lopez');
+INSERT INTO "students" VALUES (274,'Phoebe','Shannon');
+INSERT INTO "students" VALUES (275,'Poppy','Hughes');
+INSERT INTO "students" VALUES (276,'Rachel','Christie');
+INSERT INTO "students" VALUES (277,'Rebecca','Burrowes');
+INSERT INTO "students" VALUES (278,'Reece','Macdonald');
+INSERT INTO "students" VALUES (279,'Reuben','Martinez');
+INSERT INTO "students" VALUES (280,'Rhys','Bismark');
+INSERT INTO "students" VALUES (281,'Riley','Beatham');
+INSERT INTO "students" VALUES (282,'Riley','Burrowes');
+INSERT INTO "students" VALUES (283,'Robert','Cullen');
+INSERT INTO "students" VALUES (284,'Rose','Pamberi');
+INSERT INTO "students" VALUES (285,'Rosie','Jenkins');
+INSERT INTO "students" VALUES (286,'Ruby','Thompson');
+INSERT INTO "students" VALUES (287,'Ryan','George');
+INSERT INTO "students" VALUES (288,'Ryan','Gobey');
+INSERT INTO "students" VALUES (289,'Sam','Venter');
+INSERT INTO "students" VALUES (290,'Samuel','Chitsiga');
+INSERT INTO "students" VALUES (291,'Sara','Richardson');
+INSERT INTO "students" VALUES (292,'Sarah','Mnyandu');
+INSERT INTO "students" VALUES (293,'Sarah','Reid');
+INSERT INTO "students" VALUES (294,'Scarlet','Mudarikwa');
+INSERT INTO "students" VALUES (295,'Scarlett','Bennett');
+INSERT INTO "students" VALUES (296,'Sean','Long');
+INSERT INTO "students" VALUES (297,'Sebastian','Love');
+INSERT INTO "students" VALUES (298,'Sebastian','Morrison');
+INSERT INTO "students" VALUES (299,'Shannon','Rick');
+INSERT INTO "students" VALUES (300,'Sienna','Thomson');
+INSERT INTO "students" VALUES (301,'Skye','Cason');
+INSERT INTO "students" VALUES (302,'Sofia','Molokomme');
+INSERT INTO "students" VALUES (303,'Sophia','Khan');
+INSERT INTO "students" VALUES (304,'Sophia','Webster');
+INSERT INTO "students" VALUES (305,'Sophie','Russell');
+INSERT INTO "students" VALUES (306,'Summer','Woodcock');
+INSERT INTO "students" VALUES (307,'Taylor','Tshuma');
+INSERT INTO "students" VALUES (308,'Theo','Allen');
+INSERT INTO "students" VALUES (309,'Thomas','O''Sullivan');
+INSERT INTO "students" VALUES (310,'Tia','Williams');
+INSERT INTO "students" VALUES (311,'Tilly','Harris');
+INSERT INTO "students" VALUES (312,'Toby','Molokomme');
+INSERT INTO "students" VALUES (313,'Tom','Clarke');
+INSERT INTO "students" VALUES (314,'Tyler','Rivera');
+INSERT INTO "students" VALUES (315,'Victoria','Cote');
+INSERT INTO "students" VALUES (316,'William','Easterbrook');
+INSERT INTO "students" VALUES (317,'William','Fisher');
+INSERT INTO "students" VALUES (318,'Wyatt','Murphy');
+INSERT INTO "students" VALUES (319,'Zac','Chitsiga');
+INSERT INTO "students" VALUES (320,'Zachary','Netshamulivho');
+INSERT INTO "students" VALUES (321,'Zak','Saptouw');
+INSERT INTO "students" VALUES (322,'Zara','Austin');
+INSERT INTO "students" VALUES (323,'Zoe','Byrne');
+INSERT INTO "students" VALUES (324,'Zoe','Nhira');
+COMMIT;
