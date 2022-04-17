@@ -55,7 +55,8 @@ prefixed with `Ma` (e.g. `Madison`, `Max`, `Maya`) sorted by `surname` in an
 ascending order.
 
 ```sql
-PASTE YOUR CODE HERE
+SELECT name, surname FROM students where name like "Ma%"
+GROUP by surname
 ```
 
 ### Table `class`
@@ -67,7 +68,12 @@ Create a table `class` with fields of the given type:
 * `modifier`: `text`
 
 ```sql
-PASTE YOUR CODE HERE
+CREATE TABLE class (
+	id	INTEGER,
+	year	INTEGER,
+	modifier	TEXT,
+	PRIMARY KEY(id AUTOINCREMENT)
+);
 ```
 
 Create `class.sql` file with `INSERT INTO` query that adds entries to `class`
