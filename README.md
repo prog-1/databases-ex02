@@ -56,6 +56,8 @@ ascending order.
 
 ```sql
 PASTE YOUR CODE HERE
+
+SELECT name, surname FROM students WHERE name LIKE 'Ma%' ORDER BY surname;
 ```
 
 ### Table `class`
@@ -67,7 +69,15 @@ Create a table `class` with fields of the given type:
 * `modifier`: `text`
 
 ```sql
+
 PASTE YOUR CODE HERE
+
+CREATE TABLE class(
+id INTEGER,
+year INTEGER,
+modifier TEXT,
+PRIMARY KEY(id AUTOINCREMENT)
+);
 ```
 
 Create `class.sql` file with `INSERT INTO` query that adds entries to `class`
@@ -82,6 +92,12 @@ Create a table `groups` with fields of the given type:
 
 ```sql
 PASTE YOUR CODE HERE
+
+CREATE TABLE groups(
+student_id INTEGER,
+class_id INTEGER,
+PRIMARY KEY(student_id)
+);
 ```
 
 Create `groups.sql` file with `INSERT INTO` query that adds entries to `groups`
@@ -98,6 +114,14 @@ PASTE YOUR CODE HERE
 Write a query that outputs a table with all students studying in the class year
 `9` (i.e. `name`, `surname`, `year`, `modifier`).
 
+SELECT name, surname, year, modifier 
+FROM students
+JOIN groups
+ON students.id = groups.student_id
+JOIN class
+ON groups.class_id = class.id
+WHERE year = 9
+
 ```sql
 PASTE YOUR CODE HERE
 ```
@@ -111,6 +135,12 @@ Create a table `lessons` with fields of the given type:
 
 ```sql
 PASTE YOUR CODE HERE
+
+CREATE TABLE "lessons" (
+	id	INTEGER,
+	name	TEXT,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
 ```
 
 Create `lessons.sql` file with `INSERT INTO` query that adds entries to `lessons`
