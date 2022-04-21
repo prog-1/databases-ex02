@@ -55,7 +55,10 @@ prefixed with `Ma` (e.g. `Madison`, `Max`, `Maya`) sorted by `surname` in an
 ascending order.
 
 ```sql
-PASTE YOUR CODE HERE
+SELECT name, surname 
+FROM students 
+WHERE name like 'Ma%'
+ORDER BY surname;
 ```
 
 ### Table `class`
