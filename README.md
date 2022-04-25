@@ -109,6 +109,14 @@ for this query.
 
 ```sql
 PASTE YOUR CODE HERE
+
+SELECT name, surname, year, modifier
+FROM students
+JOIN groups
+ON students.id = groups.student_id
+JOIN class
+ON groups.class_id = class.id
+
 ```
 
 Write a query that outputs a table with all students studying in the class year
@@ -157,6 +165,15 @@ Create a table `timetable` with fields of the given type:
 
 ```sql
 PASTE YOUR CODE HERE
+
+CREATE TABLE timetable (
+    id INTEGER,
+	class_id INTEGER,
+	day TEXT,
+	lesson_id INTEGER,
+	PRIMARY KEY(id AUTOINCREMENT)
+);
+
 ```
 
 Create `timetable.sql` file with `INSERT INTO` query that adds entries to `timetable`
@@ -194,4 +211,15 @@ The beginning of the table should look like
 
 ```sql
 PASTE YOUR CODE HERE
+
+SELECT students.name, students.surname, timetable.day, lessons.name
+FROM timetable
+JOIN lessons
+ON timetable.lesson_id = lessons.id
+JOIN groups
+ON timetable.class_id = groups.class_id
+JOIN students
+ON groups.student_id = students.id
+ORDER BY students.name, students.surname, timetable.day, lessons.name
+
 ```
