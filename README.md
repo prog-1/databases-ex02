@@ -202,12 +202,11 @@ The beginning of the table should look like
 
 
 ```sql
-SELECT students.name, students.surname, day, lessons.name
 FROM timetable
 JOIN lessons
 ON timetable.lesson_id = lessons.id
 JOIN groups
-ON timetable.class_id = groups.student_id
+ON timetable.class_id = groups.class_id
 JOIN students
 ON groups.student_id = students.id
 ORDER by students.name, students.surname, timetable.day, lessons.id
