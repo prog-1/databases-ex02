@@ -137,14 +137,6 @@ CREATE TABLE lessons (
 	)
 ```
 
-Write a query that outputs a table with classes corresponding to each student,
-i.e. `name`, `surname`, `year`, `modifier` fields. You need to use two `JOIN`s
-for this query.
-
-```sql
-thats already was done higher
-maybe it is not right exersize?
-```
 
 Create `lessons.sql` file with `INSERT INTO` query that adds entries to `lessons`
 table with the data from `lessons.csv`.
